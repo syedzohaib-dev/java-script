@@ -55,13 +55,75 @@
 
 // console.log(((1+8)*(5/8))+((7-34)/(8+9)))
 
+// condishnal statement.........
+
+// var user = "usama"
+
+// if (user == 'usama') {
+//     console.log("welcome sir")
+// }
+// else if (user == 'abdullah') {
+//     console.log("please on the server")
+// }
+// else {
+//     console.log("go to your classroom")
+// }
+
+// var num = 5
+
+// if(num != 5){
+//     console.log("correct")
+// }
+// else{
+// console.log("wrong")
+// }
+
+// var num = 5
+
+// console.log(num <= 5)
+
+// nationality statement using .....if.....else......
+
+// var nationality = prompt('whats your nationality')
+// var age = prompt("enter your age")
+
+// if(nationality == 'pakistani' || nationality == 'Pakistani' ){
+//     if (age >=18){
+//         console.log('go to the voting room')
+//     }
+//     else{
+//         console.log('you are under age')
+//     }
+// }
+// else{
+//     console.log("you are not eligible")
+// }
 
 
+// var nationality = 'pakistani'
+// var age = "18"
 
 
+// if (nationality.toLowerCase() == 'pakistani') {
+//     if(age >= 18){
+//         console.log('go to the voting room')
+//     }
+//     else {
+//         console.log('abhi tum bache ho')
+//     }
+// }
 
 
+// array .......//// array....
 
 
+var arr = ['zohaib ', 'asmat ', 'ali', 'haris']
+// console.log(arr [3])
+// arr[3]= 'haris ali'
+// arr[8] = 'ali khan hayderabadi'
+console.log(arr)
+arr.push("usama ", "haris khan zada")
+
+var abc = arr.pop()
 
 
