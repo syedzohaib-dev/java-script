@@ -117,13 +117,39 @@
 // array .......//// array....
 
 
-var arr = ['zohaib ', 'asmat ', 'ali', 'haris']
-// console.log(arr [3])
-// arr[3]= 'haris ali'
-// arr[8] = 'ali khan hayderabadi'
-console.log(arr)
-arr.push("usama ", "haris khan zada")
+// var arr = ['zohaib ', 'asmat ', 'ali', 'haris']
+// // console.log(arr [3])
+// // arr[3]= 'haris ali'
+// // arr[8] = 'ali khan hayderabadi'
+// console.log(arr)
+// arr.push("usama ", "haris khan zada")
 
-var abc = arr.pop()
+// var arr = ['zohaib', 'asmat', 'haris', 'arsalan']
+// // arr.push('haris khan', 'asmat ullah' , 'arsalan qureshi', 'syed zohaib');
+
+// // arr.unshift('haris', 'arsalan')
+// // var abc = arr.shift()
+// arr.splice(2, 0, "hayder", "maqsood")
+
+// var abc = arr.slice(1,4)
+
+
+
+
+// console.log(arr)
+// console.log(abc)
+
+// pop.......
+
+// var abc = arr.pop()
+
+// console.log(arr)
+// console.log(abc
+
+
+
+
+
+
 
 
