@@ -103,3 +103,19 @@
 // }
 
 // task 8........
+
+worldcupsquade = ["sarfaraz ahmed", "babar azam", "fakhar zaman", "imam-ul-haq", "shoaib malik", "haris sohail", "asif ali", "shadab khan", "mohammad nawaz", "hasan ali", "shaheen afridi", "mohammad amir", "wahab riaz", "junaid khan", "abid ali"];
+
+finalteam = worldcupsquade.copy();
+
+finalteam.remove("sarfaraz ahmed")
+finalteam.remove("fakhar zaman")
+finalteam.remove("haris sohail")
+finalteam.remove("mohammad nawaz")
+
+print("final team")
+
+
+
+
+
