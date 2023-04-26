@@ -48,6 +48,7 @@
 
 // task 5.....array...name and num...
 
+
 // var contactnumber = []
 // var contactname = []
 // for (var i = 0; i < 4; i++) {
@@ -65,15 +66,16 @@
 //     console.log(contactname[i])
 // }
 
+
 // task 6.....product....
 
-// var product = ['shoes', 't-shirt', 'pants', 'had', 'socks', 'tai', 'glases']
-// var position = prompt("chose the item")
-// position = parseint(position)
-// var removeitem = product.splice(position, 1)[0]
-// console.log("remove item" + removeitem)
-// console.log("remaining item" + product.join(", "))
-// console.log("total number of remaining item is" + product.lenth)
+// var product = ["shoes", "t-shirt", "pants", "had", "socks", "tai", "glases"];
+// var removeitem = prompt("pick your favorite item  (shoes, t-shirt, pants, had, socks, tai, glases)")
+// var remove = product.splice(item)[0]
+// console.log("remove product " + remove);
+// console.log("total number of remaining item is " + product);
+// console.log("your selected item is " + remove);
+
 
 
 // task 7....nationality...gender...age...
@@ -82,40 +84,25 @@
 // var nationality = prompt("your nationality");
 // var gender = prompt("your gender");
 // var age = prompt("your age");
-// if ((nationality === "Pakistani" || nationality === "pakistani" || nationality === "pak")) {
-//     if (gender === "male" && age >= 18) {
-//         alert("go to the voting room");
+// if (nationality.toLowerCase() == "pakistani" && gender == "male" && age >= 18)  {
+//     alert("go to the voting room")
+//   }
+//   else if (gender === "female" && age >= 18) {
+//     var married = prompt("Are you a married (yes/no)");
+//     if (married === "yes") {
+//       alert("You are go to vote room.");
+//     } else {
+//       alert("You are not eligible to vote.");
 //     }
-//     else if (gender === "female" && age >= 18) {
-//         let married = prompt("Are you married (yes/no)");
-//         if (married === "yes") {
-//             alert("You are go to vote.");
-//         }
-//         else {
-//             alert("You are not eligible to vote.");
-//         }
-//     }
-//     else {
-//         alert("You not eligible to vote.");
-//     }
-// } else {
-//     alert("You not eligible to vote.");
-// }
+//   } else {
+//     alert("You not eligible");
+//   }
+
 
 // task 8........
 
-worldcupsquade = ["sarfaraz ahmed", "babar azam", "fakhar zaman", "imam-ul-haq", "shoaib malik", "haris sohail", "asif ali", "shadab khan", "mohammad nawaz", "hasan ali", "shaheen afridi", "mohammad amir", "wahab riaz", "junaid khan", "abid ali"];
+// var worldcupsquade = ["sarfaraz ahmed ",  "babar azam ",  "fakhar zaman ",  "imam ul haq ",  "shoaib malik ",  "haris sohail ",  "asif ali ",  "shadab khan ",  "mohammad nawaz ",  "hasan ali ",  "shaheen afridi ",  "mohammad amir ",  "wahab riaz ",  "junaid khan ",  "abid ali "];
 
-finalteam = worldcupsquade.copy();
-
-finalteam.remove("sarfaraz ahmed")
-finalteam.remove("fakhar zaman")
-finalteam.remove("haris sohail")
-finalteam.remove("mohammad nawaz")
-
-print("final team")
-
-
-
-
-
+// var selectedplayer = worldcupsquade.slice(1,12)
+// alert("pakistani team :" + worldcupsquade)
+// alert("pakistani team selected for a world cup " + selectedplayer)
