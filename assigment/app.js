@@ -6,7 +6,7 @@
 // alert("your zakat value is "+result)
 
 
-// task 2.........fitra......
+ // task 2.........fitra......
 
 
 // var famitymember = prompt("please type total number of family");
@@ -46,7 +46,7 @@
 // alert("first letter of your name is capital " + userinput[0].toUpperCase() + userinput.toLocaleLowerCase())
 
 
-// task 5.....array...name and num...
+// task 5....array...name and num...
 
 
 // var contactnumber = []
@@ -99,7 +99,7 @@
 //   }
 
 
-// task 8........
+// task 8........world cup squade
 
 // var worldcupsquade = ["sarfaraz ahmed ",  "babar azam ",  "fakhar zaman ",  "imam ul haq ",  "shoaib malik ",  "haris sohail ",  "asif ali ",  "shadab khan ",  "mohammad nawaz ",  "hasan ali ",  "shaheen afridi ",  "mohammad amir ",  "wahab riaz ",  "junaid khan ",  "abid ali "];
 

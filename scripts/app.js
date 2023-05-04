@@ -146,6 +146,53 @@
 // console.log(arr)
 // console.log(abc
 
+// 04--05--2023 thursday------->
+
+// dictionary.....
+
+// const dict = {
+//     ali: "12",
+//     ahsen: "15",
+//     zohaib: "20",
+//     waqas: "19",
+//     aliyan:"15",
+//     yazdan:"8"
+// }
+// alert(dict['zohaib'])
+
+// const a1 = {
+//     name: "harry",
+//     section: "1",
+//     isprinciple: false
+// }
+// // add a new key....
+
+// a1['friend'] = 'khan saab'
+// a1['friend'] = 'khan baba'
+
+// console.log(a1)
+
+// age difference..........>
+
+// let name = prompt("what is your age")
+// switch(age) {
+//     case'12':
+//     console.log("your age is 12")
+//     break
+//     case'13':
+//     console.log("your age is 13")
+//     break
+//     case'14':
+//     console.log("your age is 14")
+//     break
+//     case'15':
+//     console.log("your age is 15")
+//     default:
+//         console.log("you not speatiol")
+// }
+
+
+
 
 
 
