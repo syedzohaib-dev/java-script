@@ -191,7 +191,26 @@
 //         console.log("you not speatiol")
 // }
 
+// 05-05-2023......>...practice set...
 
+// let num = prompt("check your number")
+// num = Number.parseInt(num)
+// if (num % 2 == 0 || num % 3 == 0) {
+//     alert("your number is divide by 2 & 3")
+// }
+// else {
+//     alert("your number is not divide by 2 & 3")
+// }
+
+// loops...>
+
+let sum = 0;
+let n = prompt("enter the value of n");
+n = Number.parseInt(n);
+for (let i = 0; i < n ; i++) {
+    sum += (i = 1);
+}
+console.log("sum of first" + n + "natural number is" + sum);
 
 
 
