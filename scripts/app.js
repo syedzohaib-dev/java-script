@@ -204,18 +204,47 @@
 
 // loops...>
 
-let sum = 0;
-let n = prompt("enter the value of n");
-n = Number.parseInt(n);
-for (let i = 0; i < n ; i++) {
-    sum += (i = 1);
-}
-console.log("sum of first" + n + "natural number is" + sum);
+// let sum = 0;
+// let n = prompt("enter the value of n");
+// n = Number.parseInt(n);
+// for (let i = 0; i < n ; i++) {
+//     sum += (i = 1);
+// }
+// console.log("sum of first" + n + "natural number is" + sum);
 
+// for loop...........>
 
+// let sum = 0
+// let n = prompt("enter the value of n")
+// n + Number.parseInt(n)
 
+// for (let i = 0; i < n; i++) {
+//     sum += (i + 1)
+// }
+// console.log(" sum of first " + (n) + " natural number " + (sum))
 
+// for in loop....>
 
+// let obj = {
+//     zohaib: 40,
+//     ali: 30,
+//     waseem: 22,
+//     mali: 11,
+//     haki: 33
+// }
+// for (let a in obj) {
+//     console.log("marks of " + a + " is " + obj[a] + ".")
+// }
 
+// for of loop........>
 
-
+// let obj = {
+//     zohaib: 40,
+//     ali: 30,
+//     waseem: 22,
+//     mali: 11,
+//     haki: 33
+// }
+// for (let a of "ali") {
+//     console.log(a)
+// }
