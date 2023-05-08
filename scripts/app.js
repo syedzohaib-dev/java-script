@@ -1,9 +1,9 @@
 // alert("hello world")
 // alert('Hello World')
-// var username =prompt("Your Name PLease","Usama")
+// var username = prompt("Your Name PLease", "Usama")
 // var user = "Usama"
 // var fuser = "Usman"
-// console.log("Hello " + user+" " +fuser)
+// console.log("Hello " + user + " " + fuser)
 
 
 
@@ -16,7 +16,7 @@
 // console.log(a)
 
 // var username = prompt("username bataoo")
-// document.write( "hello " + username + " kese ho")
+// document.write("hello " + username + " kese ho")
 
 // var halchal = "kese ho"
 // var age = 19
@@ -26,34 +26,31 @@
 // var age = +prompt("your age please")
 // var fage = +prompt("your fage please")
 // // console.log(Number(fage)+Number(age)
-// console.log(age+fage)
+// console.log(age + fage)
 
 // task 1.......zakat.....
 
 // var zakatpercentage = 0.025
 // var userinput = +prompt("write your zakat contity")
-// var result = (zakatpercentage*userinput)
-// alert("your zakat value is "+result)
+// var result = (zakatpercentage * userinput)
+// alert("your zakat value is " + result)
 
-// console.log(20+2)
-// console.log(20*2)
-// console.log(20-2)
-// console.log(20/2)
-// console.log(2**2)
+// ole.log(20 / 2)
+// console.log(2 ** 2)
 
 // product card.......
 
 // var num = 1
 // console.log(num)
-// // num = num*1
-// num +=1
+// num = num * 1
+// num += 1
 // console.log(num)
 
-// // console.log(++num)...pre...
-// // console.log(num++)...post...
+// console.log(++num)...pre...
+// console.log(num++)...post...
 
 
-// console.log(((1+8)*(5/8))+((7-34)/(8+9)))
+// console.log(((1 + 8) * (5 / 8)) + ((7 - 34) / (8 + 9)))
 
 // condishnal statement.........
 
@@ -71,11 +68,11 @@
 
 // var num = 5
 
-// if(num != 5){
+// if (num != 5) {
 //     console.log("correct")
 // }
-// else{
-// console.log("wrong")
+// else {
+//     console.log("wrong")
 // }
 
 // var num = 5
@@ -87,15 +84,15 @@
 // var nationality = prompt('whats your nationality')
 // var age = prompt("enter your age")
 
-// if(nationality == 'pakistani' || nationality == 'Pakistani' ){
-//     if (age >=18){
+// if (nationality == 'pakistani' || nationality == 'Pakistani') {
+//     if (age >= 18) {
 //         console.log('go to the voting room')
 //     }
-//     else{
+//     else {
 //         console.log('you are under age')
 //     }
 // }
-// else{
+// else {
 //     console.log("you are not eligible")
 // }
 
@@ -105,7 +102,7 @@
 
 
 // if (nationality.toLowerCase() == 'pakistani') {
-//     if(age >= 18){
+//     if (age >= 18) {
 //         console.log('go to the voting room')
 //     }
 //     else {
@@ -131,7 +128,7 @@
 // // var abc = arr.shift()
 // arr.splice(2, 0, "hayder", "maqsood")
 
-// var abc = arr.slice(1,4)
+// var abc = arr.slice(1, 4)
 
 
 
@@ -155,8 +152,8 @@
 //     ahsen: "15",
 //     zohaib: "20",
 //     waqas: "19",
-//     aliyan:"15",
-//     yazdan:"8"
+//     aliyan: "15",
+//     yazdan: "8"
 // }
 // alert(dict['zohaib'])
 
@@ -174,24 +171,24 @@
 
 // age difference..........>
 
-// let name = prompt("what is your age")
-// switch(age) {
-//     case'12':
-//     console.log("your age is 12")
-//     break
-//     case'13':
-//     console.log("your age is 13")
-//     break
-//     case'14':
-//     console.log("your age is 14")
-//     break
-//     case'15':
-//     console.log("your age is 15")
+//     let name = prompt("what is your age")
+// switch (age) {
+//     case '12':
+//         console.log("your age is 12")
+//         break
+//     case '13':
+//         console.log("your age is 13")
+//         break
+//     case '14':
+//         console.log("your age is 14")
+//         break
+//     case '15':
+//         console.log("your age is 15")
 //     default:
 //         console.log("you not speatiol")
 // }
 
-// 05-05-2023......>...practice set...
+// 05 - 05 - 2023......>...practice set...
 
 // let num = prompt("check your number")
 // num = Number.parseInt(num)
@@ -204,17 +201,17 @@
 
 // loops...>
 
-// let sum = 0;
+//     let sum = 0;
 // let n = prompt("enter the value of n");
 // n = Number.parseInt(n);
-// for (let i = 0; i < n ; i++) {
+// for (let i = 0; i < n; i++) {
 //     sum += (i = 1);
 // }
 // console.log("sum of first" + n + "natural number is" + sum);
 
 // for loop...........>
 
-// let sum = 0
+//     let sum = 0
 // let n = prompt("enter the value of n")
 // n + Number.parseInt(n)
 
@@ -225,26 +222,127 @@
 
 // for in loop....>
 
-// let obj = {
-//     zohaib: 40,
-//     ali: 30,
-//     waseem: 22,
-//     mali: 11,
-//     haki: 33
-// }
+//     let obj = {
+//         zohaib: 40,
+//         ali: 30,
+//         waseem: 22,
+//         mali: 11,
+//         haki: 33
+//     }
 // for (let a in obj) {
 //     console.log("marks of " + a + " is " + obj[a] + ".")
 // }
 
 // for of loop........>
 
-// let obj = {
-//     zohaib: 40,
-//     ali: 30,
-//     waseem: 22,
-//     mali: 11,
-//     haki: 33
-// }
+//     let obj = {
+//         zohaib: 40,
+//         ali: 30,
+//         waseem: 22,
+//         mali: 11,
+//         haki: 33
+//     }
 // for (let a of "ali") {
 //     console.log(a)
 // }
+
+// time and date........>
+
+// var current = new Date()
+// console.log(current.getDate())
+// console.log(current.getDay())
+
+
+// while loop.......>
+
+//     let n = prompt("enter th valuue of n")
+// n = Number.parseInt(n)
+
+// let i = 0
+// while (i < n) {
+//     console.log(i)
+//     i++
+// }
+
+
+// while loop practice....>
+
+//     let n = prompt("please write a number")
+// n = Number.parseInt(n)
+
+// let i = 0
+// while (i < n) {
+//     console.log(i)
+//     i++
+// }
+
+// do while loop...>
+
+//     let n = prompt("write a do while number")
+// n + Number.parseInt(n)
+
+// let i = 10
+// do {
+//     console.log(i)
+//     i++
+// } while (i < n)
+
+// function........>
+
+//     let a = 1
+// let b = 2
+// let c = 3
+// console.log(a + b)
+// console.log(b + c)
+// console.log(a + c)
+// function binod(x, y) {
+//     return Math.round(1 + (x + y) / 2)
+// }
+// const sum = (p, q) => {
+//     return p + q
+// }
+// const hello = () => {
+//     console.log("hey how are you  i am very very fine")
+//     return "hi"
+// }
+// let a = 1
+// let b = 2
+// let c = 3
+// let v = hello()
+// console.log(v)
+// console.log("your average number id", binod(a, b));
+// console.log("your favorite number is", binod(b, c));
+// console.log("your lazy number is", binod(a, c));
+// console.log(sum(7, 9))
+// console.log(20 + 2)
+// console.log(20 * 2)
+// console.log(20 - 2)
+
+// heml practice....>
+
+// const dada = ()=>{
+//     console.log("kese ho dada")
+//     return "theek hn beta"
+// }
+// let d = dada()
+// console.log(d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
