@@ -327,8 +327,49 @@
 // let d = dada()
 // console.log(d)
 
+// practice set.........>
 
+// let marks = {
+//     zohaib: 20,
+//     ali: 15,
+//     khan: 12,
+//     sala: 2
+// }
+// for (let i = 0; i < Object.keys(marks).length; i++) {
+//     // console.log("the mark of" + Object.keys(marks)[i] + "are" + mark[Object.key(marks)[i]])
+// }
 
+// for(let key in marks){
+//     console.log("The marks of " + key + " are " + marks[key])
+// }
+
+// problem--3.....>
+
+// let cn = 50
+// let i 
+// while(i != cn){
+//     i = prompt("write a good number")
+//     console.log("try again")
+// }
+// console.log("you have enter a correct number")
+
+// problem 4.........>
+
+// const mean = (a, b, c, d) => {
+//     return (a + b + c + d) / 4
+// }
+// console.log(mean(4, 5, 6, 7))
+
+// String........>
+
+// let boy1 = "zohaib"
+// let boy2 = "waseem"
+
+// let sentence = `${boy1} is a friend of ${boy2}`
+// console.log(sentence)
+
+// let fruit = 'banana'
+// console.log(fruit)
 
 
 
