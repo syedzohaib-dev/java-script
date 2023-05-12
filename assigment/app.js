@@ -6,7 +6,7 @@
 // alert("your zakat value is "+result)
 
 
- // task 2.........fitra......
+// task 2.........fitra......
 
 
 // var famitymember = prompt("please type total number of family");
@@ -106,3 +106,76 @@
 // var selectedplayer = worldcupsquade.slice(1,12)
 // alert("pakistani team :" + worldcupsquade)
 // alert("pakistani team selected for a world cup " + selectedplayer)
+
+// task 9.......>check leap year
+
+// function leapyear() {
+//     var year = new Date().getFullYear()
+//     console.log("current year is " + (year))
+//     if (year % 4 === 0) {
+//         console.log("This year is leap year")
+//     }
+//     else {
+//         console.log("This year is not a leap year")
+//     }
+// }
+
+// var thisleapyear = leapyear()
+// console.log(thisleapyear)
+
+// task 10.........>check--10--leap--year
+
+// function newtenyear() {
+//     var currentyear = new Date().getFullYear()
+//     let leapyear = []
+//     for (let i = 1 ; leapyear.length < 10; i++) {
+//         if (i % 4 == 0) {
+//             leapyear.push(i)
+//         }
+//     }
+//     return leapyear
+// }
+// var leapyear = newtenyear()
+// console.log(leapyear)
+
+// task 11.........generate--otp
+
+// function otpgen() {
+//     return Math.floor(Math.random() * 4000 + 1000)
+// }
+// var myotp = otpgen()
+// alert("Your OTP is " +myotp)
+
+// task 12........>string into capital case 
+
+// function capital(str){
+//     str= str.toUpperCase(Str)
+//     alert("string in to a capital case " +str)
+// }
+// var str = prompt("Enter name using double cote")
+// capital(str)
+
+// task 13.........>calculate your age 
+
+// function yourAge(birthdate){
+//     var today = new Date()
+//     var difference = today.getTime() - birthdate.getTime()
+//     var age = difference / (1000 * 60 * 60 * 24 * 365.2425)
+//     return age
+// }
+
+// var birthdate = new Date(2002, 12, 8)
+// var age = yourAge(birthdate)
+// alert("My age is "+Math.floor(age))
+
+
+
+
+
+
+
+
+
+
+
+
