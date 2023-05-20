@@ -76,11 +76,46 @@
 
       <!-- foam -->
 
+<form onsubmit="formsubm(event)">
+  <label for="name">Name</label>
+  <input type="text" required onblur="this.style.color='blue'" onfocus="this.style.color='red'" name="" id="name" placeholder="name" >
+  <!-- <input type="text" required name="countrycode" id="countrycode" placeholder="countrycode" value="+92" disabled> -->
+  <input type="text" required name="companycode" id="companycode" placeholder="companycode" pattern="[0-9]{3}" title="plz enter 3 digit">
+  <input type="text" required name="customercode" id="customercode" placeholder="customercode" pattern="[0-9]{7}" title="plz enter 7 digit">
+  <input  required type="email"  name="email" id="email" placeholder="email">
+<select name="" id="country" onchange="setcountrycode()">
+  <option value="+92">Pakistan</option>
+  <option value="+91">India</option>
+  <option value="+90">Bangladesh</option>
+</select>
+<input type="text" name="countrycode" id="countrycode">
+
+
+      
+
+
+  <input type="submit" value="submit">
+
+</form>
+
       
 
 
 
-
+<script>
+  function formsubm(e){
+  e.preventDefault();
+  // console.log("Running")
+  var name = document.getElementById('name').value;
+  var country = document.getElementById('country').value;
+  console.log(name, country)
+  }
+  function setcountrycode(){
+    // console.log('running')
+    document.getElementById('countrycode').value = document.getElementById('country').value;
+  }
+</script>
+  
 
 
     <script src="./scripts/app.js"></script>

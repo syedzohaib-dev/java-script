@@ -371,6 +371,85 @@
 // let fruit = 'banana'
 // console.log(fruit)
 
+// var fruit = 'bana\'na';
+// console.log(fruit);
+
+// quik quiz...>
+
+// let name = "zohaib"
+// for (i = 0; i < name.length; i++) {
+//     console.log(name[0])
+//     console.log(name[1])
+//     console.log(name[2])
+//     console.log(name[3])
+// }
+
+
+// var name = "zohaib"
+// console.log(name.toUpperCase())
+// console.log(name.toLowerCase())
+// console.log(name.length)
+// console.log(name.slice(1,3))
+// console.log(name.slice(2))
+// console.log(name.replace("b" , "n"))
+// console.log(name.trim())
+
+// string practice set.........>
+
+// const sentence = `my name is zohaib`;
+// const word = `zohaib`
+// console.log(sentence.includes(word))
+// console.log('the word "${word}" ${sentence.includes(word)? 'is' : 'is not'} in the sentence`)
+
+// let capital = prompt("write your name")
+// console.log(capital.toLowerCase())
+
+
+// switch case....>
+
+
+// var name = "tepu sultan"
+// switch (name) {
+//     case "zohaib":
+//         console.log("hello ladke")
+//         break;
+//     case "ali":
+//         console.log("ali bhai")
+//         break;
+
+//     default:
+//         console.log("new entern")
+//         break;
+// }
+// var username = "ali bhaii"
+// switch (username) {
+//     case "ali bhaii":
+//         console.log("asalam u alikum kese ho aap")
+//         break;
+
+//     default:
+//         break;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
